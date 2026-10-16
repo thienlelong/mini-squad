@@ -1,9 +1,11 @@
 {
-  "pre_command": [
+  "hooks": [
     {
-      "command_pattern": "^git push.*main$",
-      "script": "../scripts/guard.sh",
-      "description": "Prevents direct pushes to the main branch to enforce the PR workflow."
+      "type": "command",
+      "events": ["PreToolUse"],
+      "matcher": "Bash",
+      "command": "bash ./scripts/guard.sh",
+      "description": "Ngăn chặn việc đẩy code trực tiếp lên nhánh main để ép luồng PR."
     }
   ]
 }
