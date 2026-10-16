@@ -1,7 +1,21 @@
 {
   "name": "squad",
-  "version": "1.0.0",
-  "description": "Mini Agile Squad for quick fixes and guardrails.",
+  "version": "0.6.2",
+  "description": "A full software team for Claude Code (PM, BA, Team Lead, Developers, Reviewer, QA, DevOps, Reporter) coordinated through a GitHub Projects board.",
+  "author": {
+    "name": "ThienLeLong" 
+  },
+  "license": "MIT",
+  "keywords": [
+    "github-projects",
+    "agile",
+    "multi-agent",
+    "workflow",
+    "team"
+  ],
+  "homepage": "https://github.com/thienlelong/mini-squad",
+  "repository": "https://github.com/thienlelong/mini-squad",
+  
   "skills": [
     {
       "name": "fix",

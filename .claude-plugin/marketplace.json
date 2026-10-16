@@ -7,10 +7,7 @@
   "plugins": [
     {
       "name": "squad",
-      "source": {
-        "github": "thienlelong/mini-squad",
-        "path": "squad"
-      }
+      "source": "./squad"
     }
   ]
 }
