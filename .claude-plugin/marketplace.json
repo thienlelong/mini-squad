@@ -1,0 +1,10 @@
+{
+  "name": "mini-squad",
+  "description": "A minimal Agile Squad implementation featuring /squad:fix",
+  "plugins": [
+    {
+      "name": "squad",
+      "path": "./squad"
+    }
+  ]
+}

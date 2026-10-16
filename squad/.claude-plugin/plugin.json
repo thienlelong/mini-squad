@@ -1,0 +1,20 @@
+{
+  "name": "squad",
+  "version": "1.0.0",
+  "description": "Mini Agile Squad for quick fixes and guardrails.",
+  "skills": [
+    {
+      "name": "fix",
+      "description": "Rapid bug fixing with a PM -> Dev -> Human Gate workflow.",
+      "file": "../skills/fix.md"
+    }
+  ],
+  "agents": [
+    {
+      "name": "developer",
+      "description": "A specialized agent for coding and bug fixing.",
+      "file": "../agents/developer.md"
+    }
+  ],
+  "hooks": "../hooks/hooks.json"
+}
