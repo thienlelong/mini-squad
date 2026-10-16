@@ -1,6 +1,9 @@
 {
   "name": "mini-squad",
-  "description": "A minimal Agile Squad implementation featuring /squad:fix",
+  "description": "A minimal Agile Squad implementation featuring the /squad:fix command.",
+  "owner": {
+    "name": "ThienLeLong"
+  },
   "plugins": [
     {
       "name": "squad",
