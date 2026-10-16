@@ -1,34 +1,11 @@
 {
   "name": "squad",
-  "version": "0.6.2",
-  "description": "A full software team for Claude Code (PM, BA, Team Lead, Developers, Reviewer, QA, DevOps, Reporter) coordinated through a GitHub Projects board.",
+  "version": "1.0.0",
+  "description": "Mini Agile Squad for quick fixes.",
   "author": {
     "name": "ThienLeLong"
   },
   "license": "MIT",
-  "keywords": [
-    "github-projects",
-    "agile",
-    "multi-agent",
-    "workflow",
-    "team"
-  ],
   "homepage": "https://github.com/thienlelong/mini-squad",
-  "repository": "https://github.com/thienlelong/mini-squad",
-  
-  "skills": [
-    {
-      "name": "fix",
-      "description": "Rapid bug fixing with a PM -> Dev -> Human Gate workflow.",
-      "file": "./skills/fix.md"
-    }
-  ],
-  "agents": [
-    {
-      "name": "developer",
-      "description": "A specialized agent for coding and bug fixing.",
-      "file": "./agents/developer.md"
-    }
-  ],
-  "hooks": "./hooks/hooks.json"
+  "repository": "https://github.com/thienlelong/mini-squad"
 }
