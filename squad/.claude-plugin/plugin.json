@@ -3,7 +3,7 @@
   "version": "0.6.2",
   "description": "A full software team for Claude Code (PM, BA, Team Lead, Developers, Reviewer, QA, DevOps, Reporter) coordinated through a GitHub Projects board.",
   "author": {
-    "name": "ThienLeLong" 
+    "name": "ThienLeLong"
   },
   "license": "MIT",
   "keywords": [
@@ -20,15 +20,15 @@
     {
       "name": "fix",
       "description": "Rapid bug fixing with a PM -> Dev -> Human Gate workflow.",
-      "file": "../skills/fix.md"
+      "file": "./skills/fix.md"
     }
   ],
   "agents": [
     {
       "name": "developer",
       "description": "A specialized agent for coding and bug fixing.",
-      "file": "../agents/developer.md"
+      "file": "./agents/developer.md"
     }
   ],
-  "hooks": "../hooks/hooks.json"
+  "hooks": "./hooks/hooks.json"
 }
