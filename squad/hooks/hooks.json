@@ -6,9 +6,8 @@
         "hooks": [
           { 
             "type": "command", 
-            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/scripts/guard.sh\"", 
-            "timeout": 10,
-            "blocking": true
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/scripts/guard.sh\" || exit 1", 
+            "timeout": 10
           }
         ]
       }
